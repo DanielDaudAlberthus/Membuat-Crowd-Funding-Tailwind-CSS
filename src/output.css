@@ -556,6 +556,12 @@ video {
   display: none;
 }
 
+body{
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity, 1));
+  font-family: Poppins, sans-serif;
+}
+
 .nav-daniel{
   position: sticky;
   top: 0px;
@@ -564,6 +570,14 @@ video {
   background-color: rgb(254 154 160 / var(--tw-bg-opacity, 1));
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.card-category{
+  height: 10rem;
+  border-radius: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 248 / var(--tw-bg-opacity, 1));
+  padding: 1.25rem;
 }
 
 .sticky{
@@ -595,6 +609,14 @@ video {
 
 .mb-1{
   margin-bottom: 0.25rem;
+}
+
+.mb-7{
+  margin-bottom: 1.75rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
 }
 
 .flex{
@@ -661,6 +683,10 @@ video {
   gap: 1.25rem;
 }
 
+.gap-8{
+  gap: 2rem;
+}
+
 .gap-\[3px\]{
   gap: 3px;
 }
@@ -669,28 +695,8 @@ video {
   gap: 4px;
 }
 
-.overflow-auto{
-  overflow: auto;
-}
-
 .overflow-x-auto{
   overflow-x: auto;
-}
-
-.overflow-x-hidden{
-  overflow-x: hidden;
-}
-
-.overflow-x-clip{
-  overflow-x: clip;
-}
-
-.overflow-x-visible{
-  overflow-x: visible;
-}
-
-.overflow-x-scroll{
-  overflow-x: scroll;
 }
 
 .text-nowrap{
@@ -699,6 +705,10 @@ video {
 
 .rounded-full{
   border-radius: 9999px;
+}
+
+.rounded-xl{
+  border-radius: 0.75rem;
 }
 
 .rounded-e-full{
@@ -752,6 +762,11 @@ video {
   background-color: rgb(239 240 241 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#F7F7F8\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 248 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[\#FFE7E7\]{
   --tw-bg-opacity: 1;
   background-color: rgb(255 231 231 / var(--tw-bg-opacity, 1));
@@ -760,11 +775,6 @@ video {
 .bg-pink-kb{
   --tw-bg-opacity: 1;
   background-color: rgb(254 154 160 / var(--tw-bg-opacity, 1));
-}
-
-.bg-slate-100{
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity, 1));
 }
 
 .bg-white{
@@ -782,6 +792,10 @@ video {
 
 .fill-white{
   fill: #fff;
+}
+
+.p-10{
+  padding: 2.5rem;
 }
 
 .p-2{
@@ -815,10 +829,6 @@ video {
   padding-bottom: 2.5rem;
 }
 
-.font-poppins{
-  font-family: Poppins, sans-serif;
-}
-
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -830,6 +840,14 @@ video {
 
 .text-\[16px\]{
   font-size: 16px;
+}
+
+.text-\[18px\]{
+  font-size: 18px;
+}
+
+.text-\[20px\]{
+  font-size: 20px;
 }
 
 .text-lg{

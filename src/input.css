@@ -4,7 +4,13 @@
 @tailwind utilities;
 
 @layer components {
+  body {
+    @apply bg-slate-100 font-poppins;
+  }
   .nav-daniel {
     @apply bg-pink-kb w-full py-2 sticky top-0;
+  }
+  .card-category {
+    @apply bg-[#F7F7F8] p-5 rounded-xl h-40;
   }
 }
