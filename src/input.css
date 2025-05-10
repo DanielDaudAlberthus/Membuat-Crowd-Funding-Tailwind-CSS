@@ -2,3 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .nav-daniel {
+    @apply bg-pink-kb w-full py-2 sticky top-0;
+  }
+}
