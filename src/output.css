@@ -580,6 +580,10 @@ body{
   padding: 1.25rem;
 }
 
+.invisible{
+  visibility: hidden;
+}
+
 .fixed{
   position: fixed;
 }
@@ -929,6 +933,10 @@ body{
 }
 
 .border-\[1px\]{
+  border-width: 1px;
+}
+
+.border{
   border-width: 1px;
 }
 
