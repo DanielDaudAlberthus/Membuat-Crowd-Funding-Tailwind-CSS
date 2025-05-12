@@ -580,6 +580,10 @@ body{
   padding: 1.25rem;
 }
 
+.fixed{
+  position: fixed;
+}
+
 .relative{
   position: relative;
 }
@@ -590,6 +594,38 @@ body{
 
 .bottom-0{
   bottom: 0px;
+}
+
+.bottom-4{
+  bottom: 1rem;
+}
+
+.m-20{
+  margin: 5rem;
+}
+
+.m-16{
+  margin: 4rem;
+}
+
+.m-10{
+  margin: 2.5rem;
+}
+
+.m-5{
+  margin: 1.25rem;
+}
+
+.m-6{
+  margin: 1.5rem;
+}
+
+.m-8{
+  margin: 2rem;
+}
+
+.m-12{
+  margin: 3rem;
 }
 
 .mx-7{
@@ -635,6 +671,16 @@ body{
 .my-4{
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-20{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .-mt-10{
@@ -683,6 +729,10 @@ body{
 
 .mb-3{
   margin-bottom: 0.75rem;
+}
+
+.block{
+  display: block;
 }
 
 .inline-block{
@@ -745,6 +795,10 @@ body{
   max-width: 640px;
 }
 
+.flex-grow{
+  flex-grow: 1;
+}
+
 .cursor-pointer{
   cursor: pointer;
 }
@@ -755,6 +809,10 @@ body{
 
 .grid-cols-3{
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.flex-col{
+  flex-direction: column;
 }
 
 .items-center{
@@ -825,6 +883,22 @@ body{
   border-radius: 0.75rem;
 }
 
+.rounded-2xl{
+  border-radius: 1rem;
+}
+
+.rounded{
+  border-radius: 0.25rem;
+}
+
+.rounded-sm{
+  border-radius: 0.125rem;
+}
+
+.rounded-3xl{
+  border-radius: 1.5rem;
+}
+
 .rounded-e-full{
   border-start-end-radius: 9999px;
   border-end-end-radius: 9999px;
@@ -838,6 +912,16 @@ body{
 .rounded-t-\[50px\]{
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+}
+
+.rounded-e-xl{
+  border-start-end-radius: 0.75rem;
+  border-end-end-radius: 0.75rem;
+}
+
+.rounded-e-3xl{
+  border-start-end-radius: 1.5rem;
+  border-end-end-radius: 1.5rem;
 }
 
 .border-\[1\.5px\]{
@@ -870,6 +954,10 @@ body{
 
 .border-e{
   border-inline-end-width: 1px;
+}
+
+.border-b{
+  border-bottom-width: 1px;
 }
 
 .border-\[\#EFF0F1\]{
@@ -990,6 +1078,14 @@ body{
   padding: 2rem;
 }
 
+.p-6{
+  padding: 1.5rem;
+}
+
+.p-7{
+  padding: 1.75rem;
+}
+
 .px-10{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -1050,6 +1146,21 @@ body{
   padding-right: 1.25rem;
 }
 
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.px-32{
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -1064,6 +1175,14 @@ body{
 
 .pt-5{
   padding-top: 1.25rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
+}
+
+.pb-20{
+  padding-bottom: 5rem;
 }
 
 .text-center{
@@ -1139,6 +1258,10 @@ body{
   line-height: 1.75rem;
 }
 
+.text-\[14px\]{
+  font-size: 14px;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1153,6 +1276,10 @@ body{
 
 .font-semibold{
   font-weight: 600;
+}
+
+.font-light{
+  font-weight: 300;
 }
 
 .italic{
@@ -1201,6 +1328,15 @@ body{
 
 .text-\[\]{
   color: ;
+}
+
+.text-\[14\]{
+  color: 14;
+}
+
+.text-\[\#B8B8B8\]{
+  --tw-text-opacity: 1;
+  color: rgb(184 184 184 / var(--tw-text-opacity, 1));
 }
 
 .underline{
