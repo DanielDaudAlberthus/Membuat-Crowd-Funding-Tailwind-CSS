@@ -764,6 +764,14 @@ body{
   width: 100%;
 }
 
+.w-3\/4{
+  width: 75%;
+}
+
+.w-1\/4{
+  width: 25%;
+}
+
 .max-w-screen-sm{
   max-width: 640px;
 }
@@ -1089,6 +1097,10 @@ body{
   padding-top: 2.5rem;
 }
 
+.pb-8{
+  padding-bottom: 2rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1182,6 +1194,10 @@ body{
   font-weight: 600;
 }
 
+.font-black{
+  font-weight: 900;
+}
+
 .italic{
   font-style: italic;
 }
@@ -1238,6 +1254,11 @@ body{
 
 .text-\[\]{
   color: ;
+}
+
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .underline{
