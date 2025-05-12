@@ -604,6 +604,10 @@ body{
   bottom: 1rem;
 }
 
+.z-50{
+  z-index: 50;
+}
+
 .m-20{
   margin: 5rem;
 }
@@ -685,6 +689,11 @@ body{
 .my-20{
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .-mt-10{
@@ -793,6 +802,11 @@ body{
 
 .w-full{
   width: 100%;
+}
+
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .max-w-screen-sm{
@@ -926,6 +940,11 @@ body{
 .rounded-e-3xl{
   border-start-end-radius: 1.5rem;
   border-end-end-radius: 1.5rem;
+}
+
+.rounded-t-xl{
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
 }
 
 .border-\[1\.5px\]{
@@ -1195,6 +1214,14 @@ body{
 
 .pb-20{
   padding-bottom: 5rem;
+}
+
+.pb-8{
+  padding-bottom: 2rem;
+}
+
+.pb-52{
+  padding-bottom: 13rem;
 }
 
 .text-center{
